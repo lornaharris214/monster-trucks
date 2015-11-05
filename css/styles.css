@@ -1,0 +1,97 @@
+/* Color Pallet
+
+1: rgb(16, 12, 13)
+2: rgb(59, 55, 56)
+3: rgb(164, 165, 171)
+4: rgb(35, 52, 104)
+5: rgb(27, 86, 168)
+
+*/
+
+/* Global */
+
+p {
+
+    font-family: 'PT Sans', sans-serif;
+    color: aliceblue;
+
+}
+
+blockquote {
+    font-family: 'Ceviche One', cursive;
+    color: rgb(164, 165, 171);
+    font-size: 46px;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    background: url(../img/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-right: 3px solid rgb(16, 12, 13);
+    border-bottom: 3px solid rgb(16, 12, 13);
+    border-left: 3px solid rgb(16, 12, 13);
+}
+
+h1 {
+    font-family: 'Ceviche One', cursive;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 0px 5px black;
+}
+/* Navigation */
+
+nav {
+    margin: 0 auto;
+    background: rgb(16, 12, 13);
+    border: 3px solid rgb(16, 12, 13);
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    font-family: 'Ceviche One', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px rgb(59, 55, 56);
+}
+
+/* Body */
+
+body {
+    background: linear-gradient(to top, rgb(16, 12, 13), rgb(27, 86, 168));
+}
+
+/* Footer */
+
+footer p {
+text-align: center;
+}
+
+/* Images */
+
+img {
+    height: 350px;
+}
+/* Links */
+
+a {
+text-decoration: none;
+}
+
+a:link, a:visited {
+color: rgb(27, 86, 168);
+
+}
+
+a:hover {
+    color: rgb(164, 165, 171);
+    border-bottom: 5px dashed white;
+    transition: color .5s;
+    
+}
