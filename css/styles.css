@@ -19,7 +19,7 @@ p {
 
 blockquote {
     font-family: 'Ceviche One', cursive;
-    color: rgb(164, 165, 171);
+    color: white;
     font-size: 46px;
     text-align: center;
 }
@@ -43,6 +43,14 @@ h1 {
     font-size: 150px;
     text-align: center;
     color: white;
+    text-shadow: 3px 0px 5px black;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+    color: white;
+    font-size: 64px;
     text-shadow: 3px 0px 5px black;
 }
 /* Navigation */
@@ -71,6 +79,8 @@ body {
 
 footer p {
 text-align: center;
+background: black;
+border-top: 3px solid rgb(35, 52, 104);
 }
 
 /* Images */
